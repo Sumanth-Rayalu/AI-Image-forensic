@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+venv/
+.venv/
+env/
+.env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project generated files
+uploads/
+model/
+training/
+database/
+backend/.env
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/

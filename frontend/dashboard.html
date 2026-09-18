@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Image Forensic AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h2>Image Forensic AI</h2>
+
+        <button id="logoutButton">Logout</button>
+    </header>
+
+    <main class="dashboard">
+
+        <h1>Welcome, <span id="userName">User</span> 👋</h1>
+
+        <p>
+            Analyze an image and determine whether it is
+            authentic, AI-generated, or manipulated.
+        </p>
+
+        <section class="upload-section">
+
+            <h2>Analyze Image</h2>
+
+            <input
+                type="file"
+                id="imageInput"
+                accept="image/*"
+            >
+
+            <div id="imagePreview"></div>
+
+            <button id="analyzeButton">
+                Analyze Image
+            </button>
+
+            <p id="analysisMessage"></p>
+
+        </section>
+
+        <section class="history-section">
+
+            <h2>Analysis History</h2>
+
+            <div id="history">
+                No analyses yet.
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
